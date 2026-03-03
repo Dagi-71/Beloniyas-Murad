@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Beloniyas Murad · creative developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Fredoka:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" href="favicon.png">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="nav-content">
+      <a href="#home" class="nav-logo">belo<span>niyas</span></a>
+      <ul class="nav-links">
+        <li><a href="#home" class="active">home</a></li>
+        <li><a href="#about">about</a></li>
+        <li><a href="#services">services</a></li>
+        <li><a href="#skills">skills</a></li>
+        <li><a href="#contact">contact</a></li>
+      </ul>
+      <div class="nav-right">
+        <button class="theme-btn" id="themeToggle">
+          <i class="fas fa-palette"></i>
+        </button>
+        <button class="menu-btn" id="menuBtn">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- 移动菜单 -->
+  <div class="mobile-nav" id="mobileNav">
+    <ul>
+      <li><a href="#home">home</a></li>
+      <li><a href="#about">about</a></li>
+      <li><a href="#services">services</a></li>
+      <li><a href="#skills">skills</a></li>
+      <li><a href="#contact">contact</a></li>
+    </ul>
+  </div>
+
+  <!-- 英雄区域 - 鲜艳多彩 -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <div class="hero-text">
+        <div class="greeting">
+          <span class="wave">👋</span>
+          <span class="greeting-text">hello, i'm</span>
+        </div>
+        <h1 class="hero-name">Beloniyas<br>Murad</h1>
+        <div class="hero-role">
+          <span class="role-badge">creative developer</span>
+          <span class="role-badge">problem solver</span>
+          <span class="role-badge">dreamer</span>
+        </div>
+        <p class="hero-desc">I turn ideas into colorful, interactive web experiences. Currently learning and building cool stuff with HTML, CSS, and JavaScript.</p>
+        <div class="hero-btns">
+          <a href="#contact" class="btn btn-primary">let's create <i class="fas fa-sparkles"></i></a>
+          <a href="#about" class="btn btn-outline">discover more</a>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="color-blob blob-1"></div>
+        <div class="color-blob blob-2"></div>
+        <div class="color-blob blob-3"></div>
+        <div class="hero-card">
+          <i class="fas fa-code"></i>
+          <span>2+ projects</span>
+        </div>
+        <div class="hero-card card-2">
+          <i class="fas fa-heart"></i>
+          <span>creative soul</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- about - 故事卡片 -->
+  <section id="about" class="about">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">✨ about me</span>
+        <h2 class="section-title">the person behind<br>the pixels</h2>
+      </div>
+      <div class="about-content">
+        <div class="about-story-card">
+          <div class="story-badge">my journey</div>
+          <p class="story-text">Hey! I'm Beloniyas, a 17-year-old developer from Ethiopia with a passion for creating colorful, engaging digital experiences. My journey into tech started when I was 14, experimenting with website builders and wondering how things worked behind the scenes. That curiosity led me to coding, and I've been hooked ever since!</p>
+          <p class="story-text">Today, I'm balancing high school with learning frontend development, building small projects, and exploring creative ways to solve problems through code. I believe that technology should be fun, accessible, and visually exciting.</p>
+          <div class="story-highlight">
+            <div class="highlight-item">
+              <span class="highlight-number">2+</span>
+              <span class="highlight-label">projects built</span>
+            </div>
+            <div class="highlight-item">
+              <span class="highlight-number">3</span>
+              <span class="highlight-label">languages learning</span>
+            </div>
+            <div class="highlight-item">
+              <span class="highlight-number">∞</span>
+              <span class="highlight-label">ideas waiting</span>
+            </div>
+          </div>
+        </div>
+        <div class="about-fun">
+          <div class="fun-fact">
+            <i class="fas fa-music"></i>
+            <span>coding with lofi</span>
+          </div>
+          <div class="fun-fact">
+            <i class="fas fa-paint-brush"></i>
+            <span>love colorful designs</span>
+          </div>
+          <div class="fun-fact">
+            <i class="fas fa-camera"></i>
+            <span>photo enthusiast</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- services - 服务卡片 -->
+  <section id="services" class="services">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">🚀 what i do</span>
+        <h2 class="section-title">my creative<br>superpowers</h2>
+      </div>
+      <div class="services-grid">
+        <div class="service-card">
+          <div class="card-icon" style="background: #ff6b6b20">
+            <i class="fab fa-html5" style="color: #ff6b6b"></i>
+          </div>
+          <h3>HTML development</h3>
+          <p>Building clean, semantic structures that make websites accessible and SEO-friendly. I write HTML that tells a story.</p>
+          <div class="card-tags">
+            <span>semantic</span>
+            <span>accessible</span>
+          </div>
+        </div>
+        <div class="service-card">
+          <div class="card-icon" style="background: #4ecdc420">
+            <i class="fab fa-css3-alt" style="color: #4ecdc4"></i>
+          </div>
+          <h3>CSS styling</h3>
+          <p>Creating beautiful, responsive layouts with modern CSS. I love playing with colors, animations, and making things look pretty.</p>
+          <div class="card-tags">
+            <span>responsive</span>
+            <span>animations</span>
+          </div>
+        </div>
+        <div class="service-card">
+          <div class="card-icon" style="background: #ffe66d20">
+            <i class="fab fa-js" style="color: #ffe66d"></i>
+          </div>
+          <h3>JavaScript magic</h3>
+          <p>Adding interactivity and life to websites. From simple interactions to fun features, I make things happen on the page.</p>
+          <div class="card-tags">
+            <span>interactive</span>
+            <span>dynamic</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- skills - 彩色进度条 -->
+  <section id="skills" class="skills">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">⚡ my toolkit</span>
+        <h2 class="section-title">skills & abilities</h2>
+      </div>
+      <div class="skills-container">
+        <div class="skill-item">
+          <div class="skill-info">
+            <span>HTML5</span>
+            <span class="skill-percent">90%</span>
+          </div>
+          <div class="progress-bar">
+            <div class="progress-fill" data-width="90" style="background: linear-gradient(90deg, #ff6b6b, #ff8e8e)"></div>
+          </div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-info">
+            <span>CSS3</span>
+            <span class="skill-percent">85%</span>
+          </div>
+          <div class="progress-bar">
+            <div class="progress-fill" data-width="85" style="background: linear-gradient(90deg, #4ecdc4, #6ee7e0)"></div>
+          </div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-info">
+            <span>JavaScript</span>
+            <span class="skill-percent">75%</span>
+          </div>
+          <div class="progress-bar">
+            <div class="progress-fill" data-width="75" style="background: linear-gradient(90deg, #ffe66d, #ffd93d)"></div>
+          </div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-info">
+            <span>Content Writing</span>
+            <span class="skill-percent">88%</span>
+          </div>
+          <div class="progress-bar">
+            <div class="progress-fill" data-width="88" style="background: linear-gradient(90deg, #a06cd5, #c19ee0)"></div>
+          </div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-info">
+            <span>Photo Editing</span>
+            <span class="skill-percent">82%</span>
+          </div>
+          <div class="progress-bar">
+            <div class="progress-fill" data-width="82" style="background: linear-gradient(90deg, #f9a826, #ffb347)"></div>
+          </div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-info">
+            <span>Creative Thinking</span>
+            <span class="skill-percent">95%</span>
+          </div>
+          <div class="progress-bar">
+            <div class="progress-fill" data-width="95" style="background: linear-gradient(90deg, #ff6b98, #ff8eb5)"></div>
+          </div>
+        </div>
+      </div>
+      <div class="skills-cloud">
+        <span class="cloud-tag" style="background: #ff6b6b">html5</span>
+        <span class="cloud-tag" style="background: #4ecdc4">css3</span>
+        <span class="cloud-tag" style="background: #ffe66d">javascript</span>
+        <span class="cloud-tag" style="background: #a06cd5">responsive</span>
+        <span class="cloud-tag" style="background: #f9a826">creative</span>
+        <span class="cloud-tag" style="background: #ff6b98">design</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- contact - 活泼联系表单 -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">📫 let's connect</span>
+        <h2 class="section-title">start something<br>colorful together</h2>
+      </div>
+      <div class="contact-wrapper">
+        <div class="contact-info">
+          <div class="info-card">
+            <i class="fas fa-envelope" style="color: #ff6b6b"></i>
+            <div>
+              <h4>email me</h4>
+              <p>beloniyasmurad@gmail.com</p>
+            </div>
+          </div>
+          <div class="info-card">
+            <i class="fas fa-phone-alt" style="color: #4ecdc4"></i>
+            <div>
+              <h4>call me</h4>
+              <p>+251 912 345 678</p>
+            </div>
+          </div>
+          <div class="info-card">
+            <i class="fas fa-map-marker-alt" style="color: #ffe66d"></i>
+            <div>
+              <h4>based in</h4>
+              <p>Ethiopia · remote</p>
+            </div>
+          </div>
+        </div>
+        <form class="contact-form" id="contactForm">
+          <div class="form-group">
+            <input type="text" id="name" placeholder="your name" required>
+            <i class="fas fa-user"></i>
+          </div>
+          <div class="form-group">
+            <input type="email" id="email" placeholder="email address" required>
+            <i class="fas fa-envelope"></i>
+          </div>
+          <div class="form-group">
+            <textarea id="message" rows="5" placeholder="your message" required></textarea>
+            <i class="fas fa-pen"></i>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full">
+            send message <i class="fas fa-paper-plane"></i>
+          </button>
+        </form>
+      </div>
+    </div>
+    <footer class="footer">
+      <p> Beloniyas Murad · © 2026</p>
+    </footer>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
